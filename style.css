@@ -3,12 +3,89 @@ html {
     margin: 0;
     padding: 0;
     font-size: 18px;
-    font-family: "Helvetica Neue", serif;
+    /* font-family: "Helvetica Neue", serif; */
     line-height: 1.5em;
+    font-family: sans-serif;
+
 }
 
 ul {
-    list-style: none;
     margin: 0;
     padding: 0;
 }
+header {
+    background-color: black;
+    position: fixed;
+    width: 100%;
+    height: 80px;
+}
+header img {
+    position: absolute;
+    border-radius: 50%;
+    left: 20px;
+    top: 50%;
+    margin-top: -30px;
+}
+
+header h1 {
+    width: 300px;
+    color: white;
+    position: absolute;
+    left: 50%;
+    margin-left: -150px;
+}
+
+header ul {
+    line-height: 80px;
+    float: right;
+}
+
+header li {
+    display: inline;
+    margin-right: 20px;
+}
+header a {
+    color: white;
+}
+
+#description {
+    background-color: gainsboro;
+    padding: 120px 100px 50px;
+    /* margin-bottom: -70px; */
+}
+
+.description img {
+    float: left;
+    width: 35%;
+    height: 35%;
+    margin-right: 30px;
+    margin-bottom: 20px;
+
+}
+
+.description .description-p2{
+    clear: both;
+}
+
+.relationship {
+    margin: 0;
+    padding: 50px 100px;
+}
+
+.relationship img {
+    float: right;
+    width: 30%;
+    height: 30%;
+    margin-left: 40px;
+}
+
+footer {
+    background-color: gray;
+    height: 80px;
+    text-align: center;
+    line-height: 80px;
+}
+
+
+
+
